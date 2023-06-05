@@ -1,3 +1,9 @@
+on:
+  push:
+    branches: [s2sa4v/*]
+  pull_request:
+    branches: [s2sa4v/*]
+
 # This is a basic workflow that is manually triggered
 
 name: Manual workflow
